@@ -12,10 +12,6 @@ const StyledTable = styled.table`
 
 `;
 
-const StyledTableHead = styled.thead`
-  background-color: #f5f5f5;
-`;
-
 const StyledTableHeader = styled.td`
   vertical-align: middle;
   font-weight: bold;
@@ -24,7 +20,6 @@ const StyledTableHeader = styled.td`
 `;
 
 const StyledCell = styled.div`
-// background-color: red;
     width: 200px;
 `
 
@@ -34,13 +29,11 @@ const Table = (props: TableProps) => {
     return (
         <>
             <StyledTable>
-                <StyledTableHead>
-                    <Row>
-                        {headings.map((heading) => (
-                            <StyledTableHeader key={heading}>{heading}</StyledTableHeader>
-                        ))}
-                    </Row>
-                </StyledTableHead>
+                <Row>
+                    {headings.map((heading) => (
+                        <StyledTableHeader key={heading}>{heading}</StyledTableHeader>
+                    ))}
+                </Row>
                 {data.map((row, index) => (
                     <Row key={index}>
                         {row.map((cell: any, index: any) => (
