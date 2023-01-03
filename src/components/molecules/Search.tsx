@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from './Button';
-import Input from './Input';
+import Button from '../atoms/Button';
+import Input from '../atoms/Input';
 
 import { SearchProps } from './Search.types';
 

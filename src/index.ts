@@ -1,5 +1,5 @@
-import Button from "./components/Button";
-import Input from "./components/Input";
+import Button from "./components/atoms/Button";
+import Input from "./components/atoms/Input";
 
 export { Button };
 export { Input };

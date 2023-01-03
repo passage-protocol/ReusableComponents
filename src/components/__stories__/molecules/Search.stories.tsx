@@ -1,8 +1,8 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Search from '../Search';
-import { SearchProps } from '../Search.types';
+import Search from '../../molecules/Search';
+import { SearchProps } from '../../molecules/Search.types';
 
 export default {
   title: 'Search',
