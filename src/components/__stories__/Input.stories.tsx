@@ -5,7 +5,7 @@ import Input from '../atoms/Input';
 import { InputProps } from '../atoms/Input.types';
 
 export default {
-  title: 'Input',
+  title: 'atoms/Input',
   component: Input,
   argTypes: {},
 } as ComponentMeta<typeof Input>;

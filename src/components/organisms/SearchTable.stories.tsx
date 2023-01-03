@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Table from '../organisms/Table';
+import SearchTable from '../organisms/SearchTable';
 
 
 const headings = ['Name', 'Email', 'Phone'];
@@ -12,12 +12,12 @@ const data = [
 ];
 
 export default {
-  title: 'organisms/Table',
-  component: Table,
+  title: 'organisms/SearchTable',
+  component: SearchTable,
   argTypes: {},
-} as ComponentMeta<typeof Table>;
+} as ComponentMeta<typeof SearchTable>;
 
-const Template: ComponentStory<typeof Table > = (args) => <Table {...args} headings={headings} data={data}  />;
+const Template: ComponentStory<typeof SearchTable > = (args) => <SearchTable {...args} headings={headings} data={data}  />;
 
 export const Default = Template.bind({});
 Default.args = {

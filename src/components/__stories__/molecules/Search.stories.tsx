@@ -5,7 +5,7 @@ import Search from '../../molecules/Search';
 import { SearchProps } from '../../molecules/Search.types';
 
 export default {
-  title: 'Search',
+  title: 'molecules/Search',
   component: Search,
   argTypes: {},
 } as ComponentMeta<typeof Search>;
