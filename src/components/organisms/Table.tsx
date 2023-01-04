@@ -2,7 +2,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Row from '../atoms/Row';
-import Search from '../molecules/Search';
 import { TableProps } from './Table.types';
 
 const StyledTable = styled.table`
